@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Basic Core Programs!");
-            Console.WriteLine("\n1. Flip Coin Percentages.\n2. Leap Year\n3. Power Of Two.\n4. Harmonic Number.\n5. Prime Factors. \n6. Quotient & Remainder.\n");
+            Console.WriteLine("\n1. Flip Coin Percentages.\n2. Leap Year\n3. Power Of Two.\n4. Harmonic Number.\n5. Prime Factors. \n6. Quotient & Remainder.\n7. Swap Two Number");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -38,6 +38,11 @@
                     //Q6. Compute Quotient and Remainder
                     QuotientRemainder quotientRemainder = new QuotientRemainder();
                     quotientRemainder.QuotientRemainderFn();
+                break;
+                case 7:
+                    //Q7. Swap Two Number
+                    SwapTwoNumber swapTwoNumber = new SwapTwoNumber();
+                    swapTwoNumber.SwapTwoNumberFn();
                 break;
                 default:
                     Console.WriteLine("Choose from given options only!");
