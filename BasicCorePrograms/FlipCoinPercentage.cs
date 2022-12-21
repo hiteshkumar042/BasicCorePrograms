@@ -30,8 +30,6 @@ namespace BasicCorePrograms
             double tailPercentage = (tailCount *100) / numberOfTimes;
             double headPercentage = (headCount *100) / numberOfTimes;
             Console.WriteLine("Tail Count Percentage is : {0}% & Head Count Percentage is : {1}%", tailPercentage, headPercentage);
-
-
         }
     }
 }
