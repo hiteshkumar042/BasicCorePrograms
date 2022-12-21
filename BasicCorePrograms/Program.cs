@@ -5,7 +5,8 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Basic Core Programs!");
-            Console.WriteLine("\n1. Flip Coin Percentages.\n2. Leap Year\n3. Power Of Two.\n4. Harmonic Number.\n5. Prime Factors. \n6. Quotient & Remainder.\n7. Swap Two Number");
+            Console.WriteLine("\n1. Flip Coin Percentages.\n2. Leap Year\n3. Power Of Two.\n4. Harmonic Number.\n5. Prime Factors.");
+            Console.WriteLine("6. Quotient & Remainder.\n7. Swap Two Number.\n8. Even or Odd.\n");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -44,6 +45,11 @@
                     SwapTwoNumber swapTwoNumber = new SwapTwoNumber();
                     swapTwoNumber.SwapTwoNumberFn();
                 break;
+                case 8:
+                    //Q8. Even or Odd Number
+                    EvenOrOdd evenOrOdd = new EvenOrOdd();
+                    evenOrOdd.EvenOrOddFn();
+                    break;
                 default:
                     Console.WriteLine("Choose from given options only!");
                 break;
