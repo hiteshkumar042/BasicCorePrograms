@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Basic Core Programs!");
-            Console.WriteLine("\n1. Flip Coin Percentages.\n2. Leap Year\n");
+            Console.WriteLine("\n1. Flip Coin Percentages.\n2. Leap Year\n3. Power Of Two.\n");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -19,6 +19,11 @@
                     LeapYear leapyear = new LeapYear();
                     leapyear.LeapYearFn();
                 break;
+                    case 3:
+                    //Power of 2
+                    PowerOfTwo powerOfTwo = new PowerOfTwo();
+                    powerOfTwo.PowerOfTwoFn();
+                    break;
                 default:
                     Console.WriteLine("Choose from given options only!");
                 break;
