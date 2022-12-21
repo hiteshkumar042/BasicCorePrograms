@@ -19,11 +19,16 @@
                     LeapYear leapyear = new LeapYear();
                     leapyear.LeapYearFn();
                 break;
-                    case 3:
-                    //Power of 2
+                case 3:
+                    //Q3. Power of 2
                     PowerOfTwo powerOfTwo = new PowerOfTwo();
                     powerOfTwo.PowerOfTwoFn();
-                    break;
+                break;
+                case 4:
+                    //Q4. Harmonic Number
+                    HarmonicNumber harmonicNumber = new HarmonicNumber();
+                    harmonicNumber.HarmonicNumberFn();
+                break;
                 default:
                     Console.WriteLine("Choose from given options only!");
                 break;
