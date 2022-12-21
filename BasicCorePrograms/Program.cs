@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Basic Core Programs!");
-            Console.WriteLine("\n1. Flip Coin Percentages.\n2. Leap Year\n3. Power Of Two.\n4. Harmonic Number.\n5. Prime Factors.");
-            Console.WriteLine("6. Quotient & Remainder.\n7. Swap Two Number.\n8. Even or Odd.\n9. Vowel Or Consonant.\n");
+            Console.WriteLine("\n1. Flip Coin Percentages.\n2. Leap Year.\n3. Power Of Two.\n4. Harmonic Number.\n5. Prime Factors.");
+            Console.WriteLine("6. Quotient & Remainder.\n7. Swap Two Number.\n8. Even or Odd.\n9. Vowel Or Consonant.\n10. Largest Among Three Number.\n");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -54,6 +54,11 @@
                     //Q9.Vowel Or Consonant 
                     VowelOrConsonant vowelOrConsonant = new VowelOrConsonant();
                     vowelOrConsonant.VowelOrConsonantFn();
+                break;
+                case 10:
+                    //Q10.Largest Among Three Number 
+                    LargeAmongThreeNum largeAmongThreeNum = new LargeAmongThreeNum();
+                    largeAmongThreeNum.LargeAmongThreeNumFn();
                 break;
                 default:
                     Console.WriteLine("Choose from given options only!");
