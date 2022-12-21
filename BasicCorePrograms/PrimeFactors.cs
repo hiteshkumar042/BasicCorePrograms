@@ -10,10 +10,9 @@ namespace BasicCorePrograms
     {
         public void PrimeFactorsFn()
         {
-            int isPrime;
             Console.WriteLine("Enter a number : ");
             int num = Convert.ToInt32(Console.ReadLine());
-            for (int i = 2; i*i <= num; i++)
+            for (int i = 2; i <= num; i++)
             {
                 while (num % i == 0)
                 {
@@ -23,7 +22,7 @@ namespace BasicCorePrograms
             }
             if (num != 1)
             {
-                Console.WriteLine(num);
+               Console.WriteLine(num);
             }
         }
     }
