@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Basic Core Programs!");
-            Console.WriteLine("\n1. Flip Coin Percentages.\n2. Leap Year\n3. Power Of Two.\n4. Harmonic Number");
+            Console.WriteLine("\n1. Flip Coin Percentages.\n2. Leap Year\n3. Power Of Two.\n4. Harmonic Number.\n5. Prime Factors");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -29,6 +29,11 @@
                     HarmonicNumber harmonicNumber = new HarmonicNumber();
                     harmonicNumber.HarmonicNumberFn();
                 break;
+                case 5:
+                    //Q5. Prime Factors
+                    PrimeFactors primeFactors = new PrimeFactors();
+                    primeFactors.PrimeFactorsFn();
+                    break;
                 default:
                     Console.WriteLine("Choose from given options only!");
                 break;
