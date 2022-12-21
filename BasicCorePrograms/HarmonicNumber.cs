@@ -16,9 +16,8 @@ namespace BasicCorePrograms
             for (int i=1;i<=num;i++)
             {
                 Console.Write("1/{0} + ", i);
-                result += 1 / (float)i;
             }
-            Console.Write("\nSum of Series upto {0} terms : {1} \n", num, result);
+         
         }
     }
 }
