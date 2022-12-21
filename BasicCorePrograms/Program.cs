@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Welcome to Basic Core Programs!");
             Console.WriteLine("\n1. Flip Coin Percentages.\n2. Leap Year\n3. Power Of Two.\n4. Harmonic Number.\n5. Prime Factors.");
-            Console.WriteLine("6. Quotient & Remainder.\n7. Swap Two Number.\n8. Even or Odd.\n");
+            Console.WriteLine("6. Quotient & Remainder.\n7. Swap Two Number.\n8. Even or Odd.\n9. Vowel Or Consonant.\n");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -50,6 +50,11 @@
                     EvenOrOdd evenOrOdd = new EvenOrOdd();
                     evenOrOdd.EvenOrOddFn();
                     break;
+                case 9:
+                    //Q9.Vowel Or Consonant 
+                    VowelOrConsonant vowelOrConsonant = new VowelOrConsonant();
+                    vowelOrConsonant.VowelOrConsonantFn();
+                break;
                 default:
                     Console.WriteLine("Choose from given options only!");
                 break;
