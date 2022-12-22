@@ -12,54 +12,44 @@
             {
                 case 1:
                     //Q1. Flip Coin and percentage of Heads and Tails.
-                    FlipCoinPercentage flipCoin = new FlipCoinPercentage();
-                    flipCoin.FlipCoinPercentageFn();
-                break;
+                    FlipCoinPercentage.FlipCoinPercentageFn();
+                    break;
                 case 2:
                     //Q2 . Leap Year
-                    LeapYear leapyear = new LeapYear();
-                    leapyear.LeapYearFn();
-                break;
+                    LeapYear.LeapYearFn();
+                    break;
                 case 3:
                     //Q3. Power of 2
-                    PowerOfTwo powerOfTwo = new PowerOfTwo();
-                    powerOfTwo.PowerOfTwoFn();
-                break;
+                    PowerOfTwo.PowerOfTwoFn();
+                    break;
                 case 4:
                     //Q4. Harmonic Number
-                    HarmonicNumber harmonicNumber = new HarmonicNumber();
-                    harmonicNumber.HarmonicNumberFn();
-                break;
+                    HarmonicNumber.HarmonicNumberFn();
+                    break;
                 case 5:
                     //Q5. Prime Factors
-                    PrimeFactors primeFactors = new PrimeFactors();
-                    primeFactors.PrimeFactorsFn();
-                break;
+                    PrimeFactors.PrimeFactorsFn();
+                    break;
                 case 6:
                     //Q6. Compute Quotient and Remainder
-                    QuotientRemainder quotientRemainder = new QuotientRemainder();
-                    quotientRemainder.QuotientRemainderFn();
-                break;
+                    QuotientRemainder.QuotientRemainderFn();
+                    break;
                 case 7:
                     //Q7. Swap Two Number
-                    SwapTwoNumber swapTwoNumber = new SwapTwoNumber();
-                    swapTwoNumber.SwapTwoNumberFn();
-                break;
+                    SwapTwoNumber.SwapTwoNumberFn();
+                    break;
                 case 8:
                     //Q8. Even or Odd Number
-                    EvenOrOdd evenOrOdd = new EvenOrOdd();
-                    evenOrOdd.EvenOrOddFn();
+                    EvenOrOdd.EvenOrOddFn();
                     break;
                 case 9:
                     //Q9.Vowel Or Consonant 
-                    VowelOrConsonant vowelOrConsonant = new VowelOrConsonant();
-                    vowelOrConsonant.VowelOrConsonantFn();
-                break;
+                    VowelOrConsonant.VowelOrConsonantFn();
+                    break;
                 case 10:
                     //Q10.Largest Among Three Number 
-                    LargeAmongThreeNum largeAmongThreeNum = new LargeAmongThreeNum();
-                    largeAmongThreeNum.LargeAmongThreeNumFn();
-                break;
+                    LargeAmongThreeNum.LargeAmongThreeNumFn();
+                    break;
                 default:
                     Console.WriteLine("Choose from given options only!");
                 break;

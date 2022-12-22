@@ -8,7 +8,7 @@ namespace BasicCorePrograms
 {
     internal class LargeAmongThreeNum
     {
-        public void LargeAmongThreeNumFn()
+        public static void LargeAmongThreeNumFn()
         {
 
             Console.WriteLine("Enter Number 1 :");

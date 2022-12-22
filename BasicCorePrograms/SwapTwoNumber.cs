@@ -8,7 +8,7 @@ namespace BasicCorePrograms
 {
     internal class SwapTwoNumber
     {
-        public void SwapTwoNumberFn()
+        public static void SwapTwoNumberFn()
         {
             int num1, num2, temp;
             Console.WriteLine("Enter the first number: "); //4

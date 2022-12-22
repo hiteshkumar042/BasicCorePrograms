@@ -8,7 +8,7 @@ namespace BasicCorePrograms
 {
     internal class VowelOrConsonant
     {
-        public void VowelOrConsonantFn()
+        public static void VowelOrConsonantFn()
         {
             Console.WriteLine("Enter a character: ");
             Char ch = Convert.ToChar(Console.ReadLine());

@@ -9,15 +9,14 @@ namespace BasicCorePrograms
 {
     internal class PowerOfTwo
     {
-        public void PowerOfTwoFn()
+        public static void PowerOfTwoFn()
         {
-            int result = 0;
             Console.WriteLine("Enter a Number :");
             int num = Convert.ToInt32(Console.ReadLine());
-            for (int i=1;i<=num;i++)
+            for (int i=1;i<=num&&num<=31;i++)
             {
-                result = 2 * i;
-                Console.WriteLine("{0}*{1} : {2}",2,i,result);
+                double result = Math.Pow(2, i);
+                Console.WriteLine("{0}'s Power {1} : {2}",2,i,result);
             }
         }
     }

@@ -8,12 +8,11 @@ namespace BasicCorePrograms
 {
     internal class PrimeFactors
     {
-        public void PrimeFactorsFn()
+        public static void PrimeFactorsFn()
         {
-            int isPrime;
             Console.WriteLine("Enter a number : ");
             int num = Convert.ToInt32(Console.ReadLine());
-            for (int i = 2; i*i <= num; i++)
+            for (int i = 2; i <= num/2; i++)
             {
                 while (num % i == 0)
                 {

@@ -8,7 +8,7 @@ namespace BasicCorePrograms
 {
     internal class QuotientRemainder
     {
-        public void QuotientRemainderFn()
+        public static void QuotientRemainderFn()
         {
             Console.WriteLine("Enter the dividend : ");
             int dividend = Convert.ToInt32(Console.ReadLine());

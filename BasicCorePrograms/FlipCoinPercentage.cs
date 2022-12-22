@@ -8,7 +8,7 @@ namespace BasicCorePrograms
 {
     internal class FlipCoinPercentage
     {
-        public void FlipCoinPercentageFn()
+        public static void FlipCoinPercentageFn()
         {
             int tailCount = 0, headCount = 0;
             Random random = new Random();

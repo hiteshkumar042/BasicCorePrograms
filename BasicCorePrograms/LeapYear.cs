@@ -8,7 +8,7 @@ namespace BasicCorePrograms
 {
     internal class LeapYear
     {
-        public void LeapYearFn()
+        public static void LeapYearFn()
         {
             Console.Write("Enter to Year (YYYY) to Check if it is Leap Year or Not: ");
             //taking user input

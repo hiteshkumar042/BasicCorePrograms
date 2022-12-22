@@ -8,7 +8,7 @@ namespace BasicCorePrograms
 {
     internal class EvenOrOdd
     {
-        public void EvenOrOddFn()
+        public static void EvenOrOddFn()
         {
             Console.WriteLine("Enter a Number:");
             int number = Convert.ToInt32(Console.ReadLine());
